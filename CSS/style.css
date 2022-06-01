@@ -65,7 +65,16 @@
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
-
+@media (max-width: 1200px) {
+  .section-hero {
+    /* background-color: blueviolet; */
+  }
+}
+@media (max-width: 600px) {
+  .section-hero {
+    /* border: 20px dashed green; */
+  }
+}
 .hero {
   max-width: 130rem;
   margin: 0 auto;
