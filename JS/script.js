@@ -5,5 +5,7 @@ const body = document.querySelector('body')
 btn.addEventListener('click', () => {
   header.classList.toggle('nav-open')
 })
-
+const yearEl = document.querySelector('.year')
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
 
