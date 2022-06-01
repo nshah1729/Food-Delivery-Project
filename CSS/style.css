@@ -558,7 +558,7 @@
 }
 .footer {
   border-top: 1px solid #eee;
-  padding: 12.8rem;
+  /* padding: 12.8rem; */
   padding: 12.8rem 12.8rem 1.2rem 12.8rem;
 }
 .footer-heading {
