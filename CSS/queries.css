@@ -112,6 +112,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+    /* Hide Navigation */
+    /* display: none; */
+    /* We'll not do the above since it does not allow any transition/animation */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
   }
   .main-nav-list {
     flex-direction: column;
