@@ -143,9 +143,9 @@
   }
 }
 /**************************/
-/*BELOW 704px(Small Tablets)*/
+/*BELOW 720px(Small Tablets)*/
 /**************************/
-@media (max-width: 44em) {
+@media (max-width: 45em) {
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
