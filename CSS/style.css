@@ -56,7 +56,7 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
-/* MOBILE */
+/* MOBILE NAVIGATION */
 .btn-mobile-nav {
   border: none;
   background: none;
@@ -70,6 +70,22 @@
 }
 .icon-mobile-nav[name="close-outline"] {
   display: none;
+}
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(255, 255, 255, 0.9);
+  height: 7.8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.sticky .section-hero {
+  margin-top: 7.8rem;
 }
 /**************************/
 /* HERO SECTION */
