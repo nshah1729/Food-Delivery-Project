@@ -1,4 +1,5 @@
 # Food-Delivery-Project
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://nshah1729.github.io/Healthify/)
 
 -It is a Food Delivery Website which aims to deliver fresh,organic and tasty food at your doorstep <br>
 -Fully Responsive for all Device Sizes!<br>
